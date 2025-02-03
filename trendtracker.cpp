@@ -71,11 +71,13 @@ void Trendtracker::tweeted(string ht){
                         swap(S[1], S[0]);
                     }
                 }
+                break;
             case 1: 
                 if(E[S[Sindex]].pop > E[S[0]].pop){
                     swap(S[Sindex], S[0]);
 
                 }
+                break;
             case 0:
                 return;
                 
